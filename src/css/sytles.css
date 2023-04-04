@@ -97,8 +97,14 @@ header p{
         }
 }
 
-.features{
-    color: whitesmoke;
+.features {
+    color: #B76B41;
     text-align: center;
+    font-size: larger;
+border: 1px solid black;
+    text-shadow: 1px 1px 0 black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
 }
 
+.update{
+    font-size: larger;
+}
