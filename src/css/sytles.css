@@ -107,3 +107,7 @@ header p{
 .update{
     font-size: larger;
 }
+
+ul {
+    list-style: none;
+}
