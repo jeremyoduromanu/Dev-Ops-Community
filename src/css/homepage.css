@@ -7,3 +7,86 @@ body {
 }
 /* End of CSS Reset */
 
+
+/* navbar  */
+nav {
+  background-color: rgb(44, 120, 143);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.486);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 5%;
+  position: sticky;
+  top: 0;
+}
+
+nav .navlinks ul {
+  padding: 0px 15px;
+  list-style: none;
+  margin-bottom: 2rem;
+}
+
+nav .navlinks ul li a {
+  color: white;
+  font-style: 1.8rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  /* list-style: none; */
+  transition: .3s;
+}
+
+nav ul li a:hover {
+  color: rgb(246, 250, 2);
+  transition: .3s;
+  padding-bottom: .5rem;
+  border-bottom: 2px white solid;
+}
+
+nav ul li {
+  margin-bottom: 1rem;
+}
+
+.title {
+  color: white;
+  font-size: 2rem;
+  text-transform: uppercase;
+  display: inline-block;
+  margin-right: auto;
+  font-weight: bold;
+  text-decoration: none;
+  list-style: none;
+}
+
+.navlinks ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* header  */
+
+header {
+  text-align: center;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+nav .logo {
+  display: flex;
+  align-items: center;
+}
+
+nav .logo .img {
+  width: 8rem;
+  margin-right: 2rem;
+}
+
+nav .img img {
+  width: inherit;
+
+}
