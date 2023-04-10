@@ -47,6 +47,10 @@ header p{
     color: white;
 }
 
+title{
+    text-shadow: 1px 1px 0 black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
+}
+
 .buttons {
     display: flex;
     gap: 20px;
@@ -97,5 +101,22 @@ header p{
         }
 }
 
+.features {
+    color: whitesmoke;
+    text-align: center;
+    font-size: larger;
+    text-shadow: 1px 1px 0 black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
+}
 
+.update{
+    font-size: larger;
+    text-shadow: 1px 1px 0 black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
+}
 
+ul {
+    list-style: none;
+}
+
+span{
+    text-shadow: 1px 1px 0 black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
+}
