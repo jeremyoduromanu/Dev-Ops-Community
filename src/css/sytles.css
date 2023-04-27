@@ -7,7 +7,13 @@
 :root {
     --primary-font: 'Oswald', sans-serif;
     --secondary-font: 'Poppins', sans-serif;
+    --background-color: rgba(7, 7, 7, 0.226);
+    --primary-color: #B76B41;
+    --dark-color: rgb(3, 3, 3);
+    --text-color: whitesmoke;
+    --shadow-color: black;
 }
+
 
 body {
     background-image: url(/images/hero.png);
@@ -23,23 +29,23 @@ body {
     justify-content: center;
 }
 
-header{
+header {
     text-align: center;
 }
 
-header h1{
+header h1 {
     font-family: var(--secondary-font);
     font-size: 25px;
     color: white;
 }
 
-header h2{
+header h2 {
     font-family: var(--primary-font);
     font-size: 60px;
     color: #B76B41;
 }
 
-header p{
+header p {
     width: 80%;
     margin: auto;
     font-family: var(--secondary-font);
@@ -47,7 +53,7 @@ header p{
     color: white;
 }
 
-title{
+title {
     text-shadow: 1px 1px 0 black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
 }
 
@@ -57,7 +63,7 @@ title{
     margin-top: 30px;
 }
 
-.buttons .action a{
+.buttons .action a {
     text-decoration: none;
     padding: 13px 20px;
     border: 1px solid #B76B41;
@@ -68,7 +74,7 @@ title{
     transition: background .5s ease;
     transition: border .5s ease;
     transition: color .5s ease;
-    
+
 }
 
 
@@ -77,11 +83,11 @@ title{
 
 
 
-.countdown{
+.countdown {
     margin-top: 30px;
 }
 
-.countdown p{
+.countdown p {
     font-family: var(--secondary-font);
     font-size: 50px;
     color: white;
@@ -89,16 +95,16 @@ title{
 
 
 @media only screen and (min-width: 800px) {
-    header h2{
+    header h2 {
         font-size: 100px;
     }
 
 
     .buttons .action a:hover {
-            background-color: #B76B41;
-            border: none;
-            color: black;
-        }
+        background-color: #B76B41;
+        border: none;
+        color: black;
+    }
 }
 
 .features {
@@ -108,7 +114,7 @@ title{
     text-shadow: 1px 1px 0 black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
 }
 
-.update{
+.update {
     font-size: larger;
     text-shadow: 1px 1px 0 black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
 }
@@ -117,6 +123,6 @@ ul {
     list-style: none;
 }
 
-span{
+span {
     text-shadow: 1px 1px 0 black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
 }
